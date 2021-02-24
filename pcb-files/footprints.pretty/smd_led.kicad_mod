@@ -1,0 +1,14 @@
+(module "smd_led" (layer F.Cu) (tedit 5EA4CF8C)
+  (fp_text reference "REF**" (at 0 0.5 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "smd_led" (at 0 -0.5 unlocked) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.85 -0.3) (end -0.85 0.3) (layer Dwgs.User) (width 0.12))
+  (fp_line (start -0.85 0.3) (end 0.85 0.3) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 0.85 0.3) (end 0.85 -0.3) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 0.85 -0.3) (end -0.85 -0.3) (layer Dwgs.User) (width 0.12))
+  (pad "1" smd rect (at -0.95 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a2e5ec1c-17f4-4e79-a425-14bc05a610af))
+  (pad "2" smd rect (at 0.95 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 46ec743b-d93e-4fa8-840a-13300dede4cc))
+)
